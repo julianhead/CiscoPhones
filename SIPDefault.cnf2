@@ -1,0 +1,18 @@
+image_version: P0S3-8-12-00
+proxy1_address: "172.16.230.245"            ; Can be dotted IP or FQDN
+proxy2_address: ""              ; Can be dotted IP or FQDN
+proxy3_address: ""              ; Can be dotted IP or FQDN
+proxy4_address: ""              ; Can be dotted IP or FQDN
+proxy5_address: ""              ; Can be dotted IP or FQDN
+proxy6_address: ""              ; Can be dotted IP or FQDN
+proxy_register: 1
+messages_uri:   "*97" ; As per FreePBX, *97 is for Voicemail Number
+phone_password: "cisco" ; Limited to 31 characters (Default - cisco)
+sntp_mode: unicast
+sntp_server: "172.16.230.245"
+time_zone: "CST" ; assuming you're in CST
+time_format_24hr: 1 ; to show the time in 24hour format. 1 for Enable and 0 for Disable. Disable means 12 Hours format
+date_format: "D/M/Y"  ; format you would like the date in
+dial_template: dialplan ; dialplan means dialplan.xml for dialing rules. Case-sensitive name. You have to keep file name according to dialplan template.
+directory_url: "http://172.16.230.245/cisco/directory.xml"
+logo_url: "http://172.16.230.245/cisco/logo.bmp"

@@ -1,0 +1,151 @@
+<DIALTEMPLATE>
+    <!-- Local Calls -->
+    <TEMPLATE MATCH="[2-9]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="[2-9]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="[2-9]XXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="[2-9]XXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="[2-9]XXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="[23]XXX" Timeout="4" User="Phone"/>
+
+    <!-- Long Distance Calls - 10 digits -->
+    <TEMPLATE MATCH="011[3-8][2-9]XXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="01[2-69]1[2-9]XXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="01[2-9][02-9]X[2-9]XXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="020[378]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="023[89]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="0247XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="028[2-46-9]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="0292XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="013873[2-9]XXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="015242[2-9]XXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="01539[456][2-9]XXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="01697[347][2-9]XXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="01768[347][2-9]XXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="019467[2-9]XXXX" Timeout="4" User="Phone"/>
+
+    <!-- Long Distance Calls - 9 digits -->
+    <TEMPLATE MATCH="016977[23]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012046[1-4]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012087[2-9]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012545[1-79]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012762XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012763[1-8]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012766[1-6]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012972[0-4]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012973[2-5]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012982[2-8]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012987[0-47-9]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="012988[3-5]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="013638[2-5]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="013647[23]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="013847[04-9]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="013864[0157-9]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="014044[1-7]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="014202[23]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="014208XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0146030XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="014605[2-57]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="014606[1-8]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="014607[2-8]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0146140XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0148052XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="014887[1-3]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="015243[2-79]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="015246XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="015276XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="015626[06-9]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0156686XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="016064XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="016067[4-79]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="016295[5-7]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="01635[34]XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0164724XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0164761XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="016595[08]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="016596[67]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0165974XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="016955[0-4]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="017266[13-9]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="017267[0-7]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="017442XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="017502[0-3]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="01750[3-68]2XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0175076XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0176888[234678]XX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="01827[56]XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="018375[2-5]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="018378[239]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="018843[2-58]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="019006[1-8]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0190085XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="019052XXXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0193583XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="019466[1-8]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="019492[01]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0194981XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0196323XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="019633[1-4]XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="0199561XXX" Timeout="0" User="Phone"/>
+
+    <!-- Non-geographic Numbers Charged at Geographic Rates -->
+    <TEMPLATE MATCH="03[0347]XXXXXXXX" Timeout="4" User="Phone"/>
+
+    <!-- VoIP, Corporate, Personal and Pager Numbers -->
+    <TEMPLATE MATCH="055XXXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="056XXXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="070XXXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="076XXXXXXXX" Timeout="4" User="Phone"/>
+
+    <!-- Mobile Numbers -->
+    <TEMPLATE MATCH="07[1-5789]XXXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="07624XXXXXX" Timeout="4" User="Phone"/>
+
+    <!-- Non-geographic Numbers - 10 digits -->
+    <TEMPLATE MATCH="080[08]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="084[2-5]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="087[0-3]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="082XXXXXXXX" Timeout="4" User="Phone"/>
+
+    <!-- Non-geographic Numbers - 9 digits -->
+    <TEMPLATE MATCH="0500XXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="0800XXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="0800XXXXXX#" Timeout="0" User="Phone"/>
+
+    <!-- Non-geographic Numbers - 7 digits -->
+    <TEMPLATE MATCH="08001111" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="08001111#" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="0845464X" Timeout="4" User="Phone"/>
+
+    <!-- Premium Rate Numbers -->
+    <TEMPLATE MATCH="090[0-7]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="090[89]XXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="091XXXXXXXX" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="098XXXXXXXX" Timeout="4" User="Phone"/>
+
+    <!-- International Calls -->
+    <TEMPLATE MATCH="00[1-9]!" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="00[1-9]!#" Timeout="4" User="Phone"/>
+
+    <!-- Services -->
+    <TEMPLATE MATCH="1[01][01]" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="116XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="118XXX" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="12[0-3]" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="13[1-2]" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="141!" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="141!#" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="14[24]" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="147[1-9]" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="1[579]X" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="18000" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="1800[1-9]!" Timeout="4" User="Phone"/>
+    <TEMPLATE MATCH="1800[1-9]!#" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="112" Timeout="0" User="Phone"/>
+    <TEMPLATE MATCH="999" Timeout="0" User="Phone"/>
+
+    <!-- Asterisk *.. codes -->
+    <TEMPLATE MATCH="\*.." Timeout="0" User="Phone"/>
+
+    <!-- Anything else -->
+    <TEMPLATE MATCH="*" Timeout="10"/>
+</DIALTEMPLATE>

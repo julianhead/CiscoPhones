@@ -1,0 +1,27 @@
+
+
+image_version: P0S3-8-12-00
+line1_name: 1002
+line1_authname: "1002" ;Username of Extension or Extension Number
+line1_shortname: "1002" ; displayed on the phones soft key of Button 1
+line1_password: "1ecc835fe9c5f80c018a69d1257df5e3" ;SIP Login Password for Extension
+line1_displayname: "Main Office"; the caller id
+proxy1_port: 5060 ;Default SIP port
+proxy1_address: 172.16.230.245 ; IP address of FreePBX
+
+# Line 2 Setup
+line2_name: 1003
+line2_authname: "1003"
+line2_shortname: "1003 phone label "
+line2_password: "7a8a659ba4616be195f64409d71c4bbf"
+line2_displayname: "Kitchen";
+# Phone Label (Text desired to be displayed in upper right corner)
+
+phone_label: "PHONE LABEL " ; add a space at the end, looks neater.Lable
+phone_password: "cisco" ; Limited to 31 characters (Default - cisco)
+user_info: none
+telnet_level: 2
+
+
+
+

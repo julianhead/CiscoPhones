@@ -1,0 +1,17 @@
+# SIP Configuration
+image_version: P0S3-8-12-00
+
+# Line 1 appearance
+line1_name: #EXTENSION
+
+# Identification as it should appear for caller-identification purposes
+line1_displayname: #EXTENSIONDISPLAYNAME
+
+# Line 1 Registration Authentication
+line1_authname: #EXTENSION
+
+# Line 1 Registration Password
+line1_password: #EXTENSIONSECRET
+
+# Text to display on the top right status line of the LCD
+phone_label: #EXTENSIONLABEL
